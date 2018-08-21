@@ -1,0 +1,25 @@
+[Bash] @ How will you check if a given path is a file or a folder? @ ls -l
+[Bash] @ How can you create a directory ‘child’ inside a non existing directory ‘parent’ in a single command? @ mkdir -p parent/child (using -p, we can create a directory tree)
+[Bash] @ How do you get to parent’s parent directory of the current working directory? @ cd ../../
+[Bash] @ How will you copy all files/folder in the current directory to some other directory? @ cp -r * <target>
+[Bash] @ How can you view hidden files in linux? @ ls -a
+[Bash] @ Which command is used for displaying files/directories in tree format? @ tree
+[Vim] @ How can you reach to line number 10th in a file in vim? @ in esc mode, type :10 and press enter
+[Bash] @ How do you kill a process if it is stuck or how do you get out of a process abruptly? @ Ctrl-C
+[Bash] @ Where do you end up if you type the command: “cd /../../..” ? @ root directory
+[Linux] @ How do you toggle between windows in linux? @ Use Alt+Tab or Alt+Esc
+[Linux] @ How do you open a new tab in terminal? @ Use shortcut Ctrl+Shift+T
+[Linux] @ When you do not know how to use a command where to consult? @ man page(preferred) or google(if you do not know what command to use)
+[Vim] @ Suppose you open vim without giving a filename. When you try to use “:w” in “Esc mode” vim shows you an error (try if you have not done so). How do you resolve it? @ In “Esc Mode” use “:w <file_name>”
+[Vim] @ Shortcut to reach end of the file. @ In “Esc Mode” use “G” (capital G)
+[Vim] @ Shortcut to reach beginning of the file. @ In “Esc Mode” use “gg”
+[Bash] @ Difference between piping (|) and redirection (<,>). @ Redirection is used to write/read from files while piping is used to direct output to stdout of one command to stdin of another.
+[Bash] @ How do you append the output of a command to stdout to already existing file using redirection? @ Use “>>”
+[Vim] @ How will you reach to the end of the line in vim? @ In escape mode, press shift+a
+[Vim] @ How do you copy and paste 5 lines in vim? @ In escape mode, type “5yy” (this will copy 5 lines). Then use “p” for pasting
+[Bash] @ What is the difference between Ctrl-C and Ctrl-Z? @ Ctrl-C sends SIGINT which will interrupt the application, usually abrupt stop whereas Ctrl-Z sends SIGTSTP to a foreground application, effectively putting it in the background, suspended
+[Bash] @ You have to run a command which you recently used. How can you do it without typing whole command again? @ With the help of up and down arrow keys.
+[Bash] @ How can you search for a command which was executed recently? @ Ctrl-R (reverse-i-search). You'll get a match for the most recent commands in your history by writing its first few characters. When you get your command press Enter to execute it.
+[Bash] @ How will you run the last executed command starting from the character c. @ With the help of ! (! first_character_of_command).
+[Bash] @ How do you make comments in bash? @ #
+[Vim] @ How to display line numbers in vim? @ In “Esc Mode” type “:set number”
